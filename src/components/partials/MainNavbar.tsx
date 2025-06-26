@@ -7,7 +7,7 @@ import Sidebar from "./Sidebar";
 const MainNavbar = () => {
   const [openSideBar, setOpenSideBar] = useState(false);
   return (
-    <div className="py-[26px] max-width bg-[#0A1956]">
+    <div className="py-[26px] max-width">
       <div className="flex items-center justify-between gap-2">
         <Link to={"/"} className="shrink-0">
           <img src={Logo} alt="Elite Logo White" className="w-[110px]" />
