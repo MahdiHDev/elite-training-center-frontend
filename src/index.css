@@ -2,12 +2,12 @@
 @import "tailwindcss";
 
 @theme {
-    --color-primary: #fab161;
-    --color-secondary: #b47220;
+  --color-primary: #fab161;
+  --color-secondary: #b47220;
 }
 
 * {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 h1,
@@ -15,11 +15,45 @@ h2,
 h3,
 h4,
 h5,
-h6,
-a {
-    font-family: "Poppins", sans-serif;
+h6 {
+  font-family: "Poppins", sans-serif;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif !important;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.max-width {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+@media (max-width: 1279px) {
+  .max-width {
+    max-width: 1024px;
+  }
+}
+@media (max-width: 1023px) {
+  .max-width {
+    max-width: 768px;
+  }
+}
+@media (max-width: 767px) {
+  .max-width {
+    max-width: 640px;
+  }
+}
+@media (max-width: 639px) {
+  .max-width {
+    padding-inline: 16px;
+  }
 }

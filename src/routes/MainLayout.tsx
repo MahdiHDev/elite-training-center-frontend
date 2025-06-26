@@ -1,7 +1,13 @@
 import { Outlet } from "react-router";
+import MainNavbar from "../components/partials/MainNavbar";
 
 const MainLayout = () => {
-    return <Outlet />;
+  return (
+    <>
+      <MainNavbar />
+      <Outlet />
+    </>
+  );
 };
 
 export default MainLayout;
