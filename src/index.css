@@ -4,6 +4,9 @@
 @theme {
   --color-primary: #fab161;
   --color-secondary: #b47220;
+  --color-primaryDark: "#0A1F44";
+  --color-circleOverlay: "#14284F";
+  --color-mutedText: "#D0DAE2";
 }
 
 * {
