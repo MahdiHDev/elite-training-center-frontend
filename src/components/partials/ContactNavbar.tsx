@@ -10,7 +10,11 @@ const ContactNavbar = () => {
     <div className="py-[26px] max-width">
       <div className="flex items-center justify-between gap-2">
         <Link to={"/"} className="shrink-0">
-          <img src={Logo} alt="Elite Logo White" className="w-[110px]" />
+          <img
+            src={Logo}
+            alt="Elite Logo White"
+            className="w-[110px] object-contain"
+          />
         </Link>
         <ul className="hidden md:flex items-center gap-4 lg:gap-10">
           <li>
